@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/madonna_celebration"
+    tools:targetApi="21">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_play"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorAccent"
+            android:text="Play  播放"
+            android:textStyle="bold"
+            android:fontFamily="arial"/>
+
+        <Button
+            android:id="@+id/button_pause"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/colorAccent"
+            android:text="Pause  暫停"
+            android:textStyle="bold"
+            android:fontFamily="arial"/>
+
+        <Button
+            android:id="@+id/button_reset"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorAccent"
+            android:text="Rest  重播"
+            android:textStyle="bold"
+            android:fontFamily="arial"/>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
